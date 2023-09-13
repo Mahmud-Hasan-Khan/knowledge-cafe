@@ -51,7 +51,7 @@ const Blogs = () => {
                         ></Blog>)
                     }
                 </div>
-                <div className="">
+                <div className="flex flex-col place-items-center my-4">
                     <MarkAsRead readingTime={readingTime}></MarkAsRead>
                     <BookMark bookMark={bookMarks}></BookMark>
                 </div>

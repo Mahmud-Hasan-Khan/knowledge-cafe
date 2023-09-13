@@ -22,7 +22,7 @@ const Blog = ({ blog, handleAddToBookMark, handleMarkAsRead }) => {
                     </p>
                 </div>
             </div>
-            <h1 className="text-5xl font-semibold mb-2">{blogTitle}</h1>
+            <h1 className="text-3xl md:text-5xl font-semibold mb-2">{blogTitle}</h1>
             <h4 className="text-xl font-semibold text-[#11111199]">
                 {
                     hashtags.map((hash, index) => <span key={index} >#{hash} </span>)

@@ -8,13 +8,6 @@
     background-color: rgb(246, 245, 247);
 }
 
-.header h1 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 160%;
-    color: rgb(245, 95, 40);
-}
-
 .header img {
     border-radius: 50%;
 }
