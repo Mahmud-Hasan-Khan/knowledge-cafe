@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 
 const BookMark = ({ bookMark }) => {
 
@@ -12,6 +12,10 @@ const BookMark = ({ bookMark }) => {
             }
         </div>
     );
+};
+
+BookMark.propTypes = {
+    bookMark: PropTypes.array.isRequired,
 };
 
 export default BookMark;
