@@ -1,20 +1,18 @@
-import React from 'react';
-
 const Blog = () => {
     return (
-        <div class="ml-12 mr-12 mt-10">
-            <h1 class="text-5xl font-semibold text-center">Welcome To React Blog </h1>
-            <h2 class="text-2xl font-semibold underline">Props vs State</h2>
-            <p class="text-xl bg-slate-300 p-2 mt-2">The difference comes in which component the data are owned. The state is owned locally, and the component itself updates it. Props are owned and read only by a parent. Props can be changed only if an upstream shift is caused by a callback function passed on to the child. <br />
+        <div className="ml-12 mr-12 mt-10">
+            <h1 className="text-5xl font-semibold text-center">Welcome To React Blog </h1>
+            <h2 className="text-2xl font-semibold underline">Props vs State</h2>
+            <p className="text-xl bg-slate-300 p-2 mt-2">The difference comes in which component the data are owned. The state is owned locally, and the component itself updates it. Props are owned and read only by a parent. Props can be changed only if an upstream shift is caused by a callback function passed on to the child. <br />
                 Props: <br />
                 Props are short for "properties" and are used to pass data from a parent component to a child component. They are read-only, which means that the child component cannot modify the data received through props. The parent component is responsible for updating the data passed down through props. Props are used to configure and customize a component based on the needs of the parent component.
                 <br />
                 State: <br />
                 State is used to manage data within a component. It is a JavaScript object that holds the data that can change over time. Unlike props, the component itself can modify the data stored in the state. The state is used to store data that affects the component's behavior and rendering. When the state changes, the component re-renders to reflect the updated state.</p>
-            <h2 class="text-2xl font-semibold underline">How does useState work?</h2>
-            <p class="text-xl bg-slate-300 p-2 mt-2">useState is React Hook that allows you to add state to a functional component. It returns an array with two values: the current state and a function to update it. The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called.</p>
-            <h2 class="text-2xl font-semibold underline">Purpose of useEffect other than fetching data</h2>
-            <p class="text-xl bg-slate-300 p-2 mt-2">useEffect has several other purposes as well. Here are a few examples: <br /> <br />
+            <h2 className="text-2xl font-semibold underline">How does useState work?</h2>
+            <p className="text-xl bg-slate-300 p-2 mt-2">useState is React Hook that allows you to add state to a functional component. It returns an array with two values: the current state and a function to update it. The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called.</p>
+            <h2 className="text-2xl font-semibold underline">Purpose of useEffect other than fetching data</h2>
+            <p className="text-xl bg-slate-300 p-2 mt-2">useEffect has several other purposes as well. Here are a few examples: <br /> <br />
 
                 Updating the document title: <br />
                 The useEffect hook can be used to update the document title based on the state of the component. This is useful when building single-page applications that dynamically change their title based on user interaction or other events. <br /> <br />
@@ -31,8 +29,8 @@ const Blog = () => {
                 Managing the state of the component: <br />
                 useEffect can be used to manage the state of the component, by executing code after the state has been updated. This can be useful when you need to perform some action after a state change, such as updating a third-party library or triggering a side effect.</p>
 
-            <h2 class="text-2xl font-semibold underline">How Does React work?</h2>
-            <p class="text-xl bg-slate-300 p-2 mt-2">Overview of how React works: <br />
+            <h2 className="text-2xl font-semibold underline">How Does React work?</h2>
+            <p className="text-xl bg-slate-300 p-2 mt-2">Overview of how React works: <br />
 
                 Components: <br />
                 React is based on the concept of components. A component is a self-contained module that defines its own structure and behavior. Components can be reused across the application and are composed together to create the final UI. <br /> <br />

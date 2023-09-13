@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import ProgrammingCourse from '../ProgrammingCourse/ProgrammingCourse';
 import MarkAsRead from '../MarkAsRead/MarkAsRead';
@@ -30,15 +30,18 @@ const Main = () => {
         setBookMark(newBookMark);
     };
 
-    const handleMarkAsRead = (setProgrammingCourses) => {
+    const handleMarkAsRead = (setProgrammingCourses, id) => {
         const newMarkAsRead = [...markAsRead, setProgrammingCourses];
         setMarkAsRead(newMarkAsRead);
+
+        const remainingBookMarks = bookMark.filter(bookmark => bookmark.id !== id);
+        setBookMark(remainingBookMarks);
     }
 
     return (
         <>
-            <div class="md:grid grid-cols-3 gap-4">
-                <div class="col-span-2">
+            <div className="md:grid grid-cols-3 gap-4">
+                <div className="col-span-2">
                     {
                         programmingCourses.map(programmingCourse => <ProgrammingCourse
                             key={programmingCourse.id}
@@ -48,11 +51,11 @@ const Main = () => {
                         ></ProgrammingCourse>)
                     }
                 </div>
-                <div class="">
+                <div className="">
                     <MarkAsRead markAsRead={markAsRead}></MarkAsRead>
                     <BookMark bookMark={bookMark}></BookMark>
                 </div>
-                <div class="col-span-3" >
+                <div className="col-span-3" >
                     <Blog></Blog>
                 </div>
             </div>
