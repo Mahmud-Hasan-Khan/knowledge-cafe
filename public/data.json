@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1101",
+        "authorName": "Mahmud Hasan",
+        "blogTitle": "How to get your first job as a self-taught programmer",
+        "authorImage": "https://randomuser.me/api/portraits/thumb/men/10.jpg",
+        "readTime": "15",
+        "publishDate": "Dec-12-2022",
+        "blogImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "1102",
+        "authorName": "Amanul Islam",
+        "blogTitle": "How to Learn React Easily ",
+        "authorImage": "https://randomuser.me/api/portraits/thumb/men/11.jpg",
+        "readTime": "50",
+        "publishDate": "Jan-02-2022",
+        "blogImage": "https://images.unsplash.com/photo-1653387300291-bfa1eeb90e16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+        "id": "1103",
+        "authorName": "Fakrul Islam",
+        "blogTitle": "Learn Advance Microsoft Excel within 30 Days ",
+        "authorImage": "https://randomuser.me/api/portraits/thumb/men/12.jpg",
+        "readTime": "150",
+        "publishDate": "Mar-12-2022",
+        "blogImage": "https://images.unsplash.com/photo-1632239776255-0a7f24814df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+    },
+    {
+        "id": "1104",
+        "authorName": "Mohammed Pear Hossain",
+        "blogTitle": "Learn JavaScript within 30 Days ",
+        "authorImage": "https://randomuser.me/api/portraits/thumb/men/13.jpg",
+        "readTime": "100",
+        "publishDate": "May-15-2022",
+        "blogImage": "https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    }
+]
